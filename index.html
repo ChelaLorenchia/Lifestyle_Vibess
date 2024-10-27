@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lifestyle Vibes</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css\style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold " href="#">Lifestyle Vibes</a>
+        <button
+          class="navbar-toggler "
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link " href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about us.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-primary" href="#" role="button">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <figure class="text-center m-4">
+      <blockquote class="blockquote">
+        <p class="h1">Welcome to the Lifestyle Vibes</p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        Explore trends, wellness, and living your best life
+      </figcaption>
+    </figure>
+    
+<!-- pakai Carousel autoplaying, captions and indicators-->
+  <section>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img\walp1.jpg" class="d-block w-100" alt="walp1">
+          <div class="carousel-caption d-none d-md-block text-black fw-bold ">
+            <h3>Balanced and Focused</h3>
+            <p>The perfect blend of work, relaxation, and creativity.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block text-black fw-bold">
+            <h3>Stay Warm, Look Cool</h3>
+            <p>Keep cozy and confident with timeless wardrobe pieces.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block text-black fw-bold">
+            <h3>Nourish Your Body, Delight Your Senses</h3>
+            <p>Explore a world of wellness through fresh, vibrant ingredients.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Card selection -->
+  <section>
+    <main class="container-fluid mt-5 mb-5">
+        <div class="row text-center mb-4">
+            <div class="col-12">
+                <h2 class="mt-5 mb-4">Latest in Lifestyle Vibes</h2>
+            </div>
+        </div>
+        <div class="container overflow-hidden">
+        <div class="row g-4 border-top  border-bottom justify-content-center">
+            <div class="col-12 col-md-6 col-lg-3" style="max-width:360px;">
+                <div class="card mb-4">
+                    <div class="position-relative">
+                        <img
+                            src="img/wellnest.jpg"
+                            class="card-img"
+                            alt="Image 1"
+                        />
+                        <div class="card-img-overlay">
+                            <a href="#"><h5 class="card-title">Wellness</h5></a>
+                            <p class="card-text">Revitalize Your Day with a Fresh Wellness Salad: A Flavorful Path to Health and Vitality</p>
+                            <p class="card-text"><small>Last updated 59 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  
+            <div class="col-12 col-md-6 col-lg-3" style="max-width:360px;">
+              <div class="card mb-4">
+                    <div class="position-relative">
+                        <img
+                            src="img/fitness.jpg"
+                            class="card-img"
+                            alt="Image 2"
+                        />
+                        <div class="card-img-overlay">
+                            <a href="#"><h5 class="card-title">Fitness</h5></a>
+                            <p class="card-text">"Elevate Your Fitness Journey: Strength, Sweat, and Motivation in Every Move.</p>
+                            <p class="card-text"><small>Last updated 1 hour ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3" style="max-width:360px;">
+              <div class="card  mb-4">
+                    <div class="position-relative">
+                        <img
+                            src="img/fashion.jpg"
+                            class="card-img"
+                            alt="Image 3"
+                        />
+                        <div class="card-img-overlay">
+                            <a href="#"><h5 class="card-title">Fashion</h5></a>
+                            <p class="card-text">Chic and Cozy Attire Guides You to a Brighter, More Stylish Tomorrow.</p>
+                            <p class="card-text"><small>Last updated 3 hour ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+  
+            <div class="col-12 col-md-6 col-lg-3" style="max-width:360px;">
+              <div class="card mb-4">
+                    <div class="position-relative">
+                        <img
+                            src="img/Mindfulness.jpg"
+                            class="card-img-top"
+                            alt="Image 4"
+                        />
+                        <div class="card-img-overlay">
+                            <a href="#"><h5 class="card-title">Mindfulness</h5></a>
+                            <p class="card-text">"Embracing Stillness: Meditation as a Pathway to Inner Peace and Mindfulness."</p>
+                            <p class="card-text"><small>Last updated 9 hour ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </main>
+  </section>
+
+  <section>
+    <main class="container-fluid">
+        <div class="row text-center mb-4">
+            <div class="col-12">
+                <h2 class="mt-5 mb-4">Explore Fashion & Trends</h2>
+            </div>
+        </div>
+        <div class="container rounded" style="background-color:#fff6f2">
+          <div class="row ">
+            <h2 class="fw-bold m-3">Fashion</h2>
+              <div class="col-md-6">
+                <div class="container overflow-hidden" style="max-height:761px;">
+                    <div class="card mb-3 " style="max-width: 540px;">
+                    <div class="row g-0">
+                      <a href="https://www.vogue.co.uk/article/best-corduroy-trousers-for-women#:~:text=Why%20These%20Trousers%20Are%20A%20Stylish%20Alternative%20To%20Jeans%20This%20Autumn,-By%20Emma%20Spedding&text=While%20corduroy%20will%20forever%20make,the%20denim%20shapes%20du%20jour." class="col-md-4 d-block" id="explore">
+                          <img src="img/vogue.jpg" class="img-fluid rounded-start" alt="...">
+                      </a>
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              <h5 class="card-title">Why Corduroy Pants Are a Stylish Alternative to Jeans This Fall</h5>
+                              <p class="card-text">By Emma Spedding</p>
+                              <p class="card-text"><small class="text-muted">October 14, 2024.</small></p>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <a href="https://www.fimela.com/fashion/read/5761429/deretan-koleksi-kacamata-terkini-dari-linda-farrow-hadirkan-konsep-brutalism-yang-memukau" class="col-md-4 d-block" id="explore">
+                          <img src="img/kacamata.jpg" class="img-fluid rounded-start" alt="...">
+                      </a>
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              <h5 class="card-title">Latest Eyewear Collection from Linda Farrow Brings Stunning Brutalist Concept.</h5>
+                              <p class="card-text">By Nabila Mecadinisa</p>
+                              <p class="card-text"><small class="text-muted">October 27, 2024.</small></p>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <a href="https://www.rri.co.id/sintang/hobi/648569/tips-memilih-warna-baju-sesuai-dengan-warna-kulit" class="col-md-4 d-block" id="explore">
+                          <img src="img/cooltone.jpg" class="img-fluid rounded-start" alt="...">
+                      </a>
+                      <div class="col-md-8">
+                          <div class="card-body">
+                              <h5 class="card-title">Tips for Choosing Clothing Colors That Suit Your Skin Tone</h5>
+                              <p class="card-text">Sabina Desiana</p>
+                              <p class="card-text"><small class="text-muted">April 23, 2024.</small></p>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                  </div>
+              </div>
+              
+              <div class="col-md-6 ">
+                <div class="container overflow-hidden" style="max-height:770px;">
+                <div class="card mb-5" id="img_style">
+                  <a href="#">
+                  <img src="img/fashion2.jpg" class="card-img-top" alt="...">
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">See the Best Taipei Street Style Photos From the Spring 2025 Shows</h5>
+                    <p class="card-text">Photography by JR Wu</p>
+                    <p class="card-text"><small class="text-muted">October 22, 2024</small></p>
+                  </div>
+                </div>
+              </div>
+      </div>
+      </div>
+    </main>
+    </section>
+
+    <section>
+      <main class="container-fluid">
+        <br><br>
+          <div class="container rounded" style="background-color:#fff6f2"> <!--color bg-->
+            <div class="row ">
+              <h2 class="fw-bold m-3">Trends</h2>
+              <div class="col-md-6 ">
+                <div class="container overflow-hidden" style="max-height:770px;">
+                <div class="card mb-5" id="img_style">
+                  <a href="https://lifestyle.kompas.com/read/2023/11/03/050000720/praktik-mindfulness-dalam-mengelola-keuangan-begini-caranya">
+                  <img src="img/money.jpg" class="card-img-top" alt="...">
+                  </a>
+                  <div class="card-body">
+                    <h5 class="card-title">Practice "Mindfulness" in Managing Finances, Here's How</h5>
+                    <p class="card-text">Mindfulness</p>
+                    <p class="card-text"><small class="text-muted">November 03, 2023</small></p>
+                  </div>
+                </div>
+              </div>
+      </div>
+                <div class="col-md-6">
+                  <div class="container overflow-hidden" style="max-height:761px;">
+                      <div class="card mb-3 " style="max-width: 540px;">
+                      <div class="row g-0">
+                        <a href="https://trends.co.id/inspirasi-dekorasi-rumah-konsep-tradisional-modern-dari-taco/" class="col-md-4 d-block" id="explore">
+                            <img src="img/dekor.jpg" class="img-fluid rounded-start" alt="...">
+                        </a>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Modern Traditional Concept Home Decor Inspiration from Taco</h5>
+                                <p class="card-text">Fashion </p>
+                                <p class="card-text"><small class="text-muted">October 22, 2024.</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="card mb-3" style="max-width: 540px;">
+                      <div class="row g-0">
+                        <a href="https://trends.co.id/bagaimana-minuman-beralkohol-mempengaruhi-kesehatan/" class="col-md-4 d-block" id="explore">
+                            <img src="img/health.jpg" class="img-fluid rounded-start" alt="...">
+                        </a>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">How Does Alcoholic Drinks Affect Health?</h5>
+                                <p class="card-text">Wellness</p>
+                                <p class="card-text"><small class="text-muted">October 11, 2024.</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="card mb-3" style="max-width: 540px;">
+                      <div class="row g-0">
+                        <a href="https://health.detik.com/berita-detikhealth/d-7595715/who-ungkap-lebih-dari-1-miliar-orang-di-dunia-hidup-dengan-obesitas-dipicu-hal-inil" class="col-md-4 d-block" id="explore">
+                            <img src="img/obs.jpg" class="img-fluid rounded-start" alt="...">
+                        </a>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">WHO Reveals More Than 1 Billion People in the World Live with Obesity, Triggered by This</h5>
+                                <p class="card-text">Wellness</p>
+                                <p class="card-text"><small class="text-muted">October 19, 2024.</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+        </div>
+      </main>
+      </section>
+
+      <footer class="footer py-xl-8" id="contact">
+        <div class="bg-dark text-white">
+          <div class="container">
+            <div class="row justify-content-center">
+                <section class="py-md-3 ">
+                  <div class="container-fluid overflow-hidden">
+                    <div class="row gy-4 gy-lg-0 justify-content-xl-between">
+                      <div class="col-12 col-md-5 col-lg-5 col-xl-5">
+                        <div class="widget">
+                          <h2 class="fw-bold fs-1">lifestyle Vibes</h2>
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-6 col-xl-6">
+                        <div class="widget">
+                          <h4 class="widget-title mb-4 text-center">Join Our Community</h4>
+                          <p class="mb-4 text-center">Subscribe for the latest lifestyle updates</p>
+                          <form action="#!">
+                            <div class="row gy-4">
+                              <div class="col-12">
+                                <div class="input-group mb-2">
+                                  <span class="input-group-text" id="firstname">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                                      <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                                    </svg>
+                                  </span>
+                                  <input type="text" id="firstname" name="firstname" class="form-control" placeholder="First Name" aria-label="First Name" required="">
+                                </div>
+                                <div class="input-group">
+                                  <span class="input-group-text" id="email-newsletter-addon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg>
+                                  </span>
+                                  <input type="email" id="email" name="email" class="form-control" placeholder="Email" aria-label="Email" required="">
+                                </div>
+                              </div>
+                              <div class="col-12">
+                                <div class="d-grid">
+                                  <button type="submit" class="btn btn-primary" id="subscribeButton" onclick="event.preventDefault()">Subscribe</button>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+      
+                <div class="py-4 py-md-5 py-xl-8  border-top border-light-subtle">
+                  <div class="container-fluid overflow-hidden">
+                    <div class="row gy-4 gy-md-0 align-items-md-center">
+                      <div class="col-xs-12 col-md-7 order-1 order-md-0">
+                        <div class="copyright text-center text-md-start">
+                          &copy; 2024. All Rights Reserved.
+                        </div>
+                        <div class="credits text-secondary text-center text-md-start mt-2 fs-8">
+                        <a href="#" class="link-secondary text-decoration-none">Privacy Policy</a> <br>Terms & Conditions
+                        </div>
+                      </div>
+      
+                      <div class="col-xs-12 col-md-5 order-0 order-md-1">
+                        <div class="social-media-wrapper">
+                          <ul class="list-unstyled m-0 p-0 d-flex justify-content-center justify-content-md-end">
+                            <li class="me-3">
+                              <a href="#!" class="link-light link-opacity-75-hover">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                </svg>
+                              </a>
+                            </li>
+                            <li class="me-3">
+                              <a href="#!" class="link-light link-opacity-75-hover">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                                  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                                </svg>
+                              </a>
+                            </li>
+                            <li class="me-3">
+                              <a href="#!" class="link-light link-opacity-75-hover">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                </svg>
+                              </a>
+                            </li>
+                            <li class="me-3">
+                              <a href="#!" class="link-light link-opacity-75-hover">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                </svg>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js\script.js"></script>
+  </body>
+</html>

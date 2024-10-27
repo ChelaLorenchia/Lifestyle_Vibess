@@ -1,0 +1,76 @@
+/* Custom Styles */
+h2,
+h3 {
+  font-family: "Henny Penny";
+}
+
+.navbar.navbar-expand-lg {
+  background-color: #bfd8d2;
+}
+.nav-item .nav-link:hover{
+  text-decoration: underline;
+  color: #Df744a;
+}
+.navbar-brand {
+  font-family: "Henny Penny";
+  font-size: 34px;
+}
+
+.btn.btn-primary {
+  background-color: white;
+  border-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+.btn-primary:hover {
+  background-color: #fedcd2;
+  border-color: #fedcd2;
+}
+
+/* Welcome */
+.text-center .blockquote p{
+  font-family: "Henny Penny";
+  margin-top: 20px;
+
+}
+
+/* carousel */
+.carousel-item img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+/* Judul card */
+.md-4.text-center {
+  font-size: 24px;
+}
+.position-relative img{
+  height: 500px;
+  object-fit: cover;
+  
+}
+.card-img-overlay a{
+  color: rgb(221, 186, 186);
+  text-decoration: none;
+}
+.card-img-overlay a:hover{
+  color: rgb(221, 186, 186);
+  text-decoration: underline;
+}
+  .card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+  padding: 15px;
+}
+
+#explore img{
+  height: 100%;
+}
+
+#img_style .card-img-top {
+  height: 38rem;
+}
